@@ -1,5 +1,5 @@
 name: Compile backports.lzma
-on: [push, pull_request, workflow_dispatch]
+on: [push, workflow_dispatch]
 jobs:
   compile_backports_lzma:
     runs-on: windows-latest
